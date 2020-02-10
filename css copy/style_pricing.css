@@ -1,0 +1,91 @@
+@import url("./reset.css");
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700&display=swap');
+
+/*---------------------*/
+/*ARTICLE*/
+
+body {
+    background-color: #fff;
+}
+
+.container {
+    text-align: center;
+}
+
+.dollar {
+    display: inline;
+    margin-right: 6px;
+    vertical-align: 0.3rem;
+
+}
+.month {
+    display: inline;
+    margin-left: 6px;
+    vertical-align: 0.3rem;
+}
+
+.pricing:hover {
+    border: 2px solid #3CCF8E;
+}
+
+.pricing {
+    display: inline-block;
+    font-family: 'Source Sans Pro', sans-serif;
+    border-style: solid;
+    box-shadow: 2px 2px 10px grey;
+    min-height: 330px;
+    min-width: 223px;
+    margin-top: 90px;
+    
+
+}
+
+
+.pricing__head {
+    font-size: 1.125rem;
+    margin-top: 40px;
+    margin-bottom: 44px;
+ 
+}
+p {
+    font-size: 0.875rem;
+
+}
+
+.pricing__price {
+    font-size: 2.188rem;
+    font: bold;
+}
+
+.pricing__list{
+    
+    list-style: none outside url(../img/check-mark-button.png);
+    margin-top: 40PX;
+    margin-left: 44px;
+    margin-bottom: 37px;
+    font-size: 0.813rem;
+    min-width: 161px;
+    max-height: 72px;
+    
+ 
+}   
+
+.pricing__list-item {
+    text-align: left;
+    padding-top: 3px;
+    padding-bottom: 4px;
+}
+
+.pricing__btn {
+    background-color: white;
+    border: 2px solid #5B6B82;
+    border-radius: 3px;
+    width: 130px;
+    height: 37px;
+
+}
+
+.pricing__btn:hover {
+    border: 2px solid #3CCF8E;
+    background-color: #3CCF8E;
+}

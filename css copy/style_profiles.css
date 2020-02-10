@@ -1,0 +1,79 @@
+@import url("./reset.css");
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700&display=swap');
+
+/*---------------------*/
+/*PROFILES*/
+
+
+.container {
+    text-align: center;
+}
+
+.profile {
+    display: inline-block;
+ 
+}
+.profile--selection {
+    display: block;
+    
+}
+
+.frame {
+    display: inline-block;
+    width: 242px;
+    height: 242px;
+    border-radius: 300px;
+    border-color: #E0E0E0;
+    border-style: solid;
+    border-width: 1px;
+    position: relative;
+    right: 202px;
+    top: 45px;
+    z-index: 10;
+    margin-top: 60px;
+
+   
+}
+
+.frame--secondframe {
+    
+    border-style: double;
+}
+
+
+.img-circular {
+
+    width: 155px;
+    height: 154px;
+    background-image: url('../img/74929_515805151787301_2099632552_n.jpg');
+    background-size: cover;
+    display: inline-block;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+   }
+
+
+   .img-circular--selection {
+    background-image: url('../img/413118_339246556109188_646207855_o.jpg');
+}
+
+   
+.btn {
+    background-color: #FFFFFF;
+    border: 2px solid #E0E0E0;
+    border-radius: 3px;
+    width: 130px;
+    height: 37px;
+    position: relative;
+    left: 149px;
+    top: 35px;
+    z-index: 20;
+  
+
+}
+
+hr {
+    max-width: 667px;
+  
+}
